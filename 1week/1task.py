@@ -5,7 +5,7 @@ url: https://leetcode.com/problems/longest-substring-without-repeating-character
 
 
 class Solution(object):
-    def lengthOfLongestSubstring(self,s: str) -> int:
+    def lengthOfLongestSubstring(self,s):
 
         left_pointer = 0
         current_res = []
@@ -19,3 +19,5 @@ class Solution(object):
             current_res.append(s[right_pointer])
             best_res = max(best_res, right_pointer - left_pointer + 1)
         return best_res
+
+solution = Solution()
