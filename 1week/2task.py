@@ -9,8 +9,8 @@ class Solution(object):
         res = ""
         while num > 0:
             if num >= 1000:
-                res += "M"* (num//1000)
-                num -= 1000 * (num//1000)
+                res += "M" * (num // 1000)
+                num -= 1000 * (num // 1000)
             elif num >= 900:
                 res += "CM"
                 num -= 900
@@ -48,5 +48,6 @@ class Solution(object):
                 res += "I" * num
                 num = 0
         return res
+
 
 solution = Solution()
