@@ -1,6 +1,6 @@
 """
 leetcode.com/problem-list/string/
-url: https://leetcode.com/problems/longest-palindromic-substring
+url: https://leetcode.com/problems/zigzag-conversion
 """
 
 
