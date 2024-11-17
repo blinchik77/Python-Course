@@ -3,6 +3,7 @@ https://leetcode.com/problem-list/sliding-window/
 url: https://leetcode.com/problems/count-number-of-nice-subarrays
 """
 
+
 class Solution(object):
     def numberOfSubarrays(self, nums, k):
         odd_count = 0
