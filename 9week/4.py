@@ -1,6 +1,6 @@
 """
 https://leetcode.com/problem-list/binary-tree/
-url: https://leetcode.com/problems/binary-subarrays-with-sum
+url: https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal
 """
 
 
